@@ -1,0 +1,24 @@
+{
+  "name": "hippo/hippo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "imparting",
+      "email": "1035758885@qq.com",
+      "homepage": "https://github.com/php-pmd/hippo",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hippo\\Console\\": "src/console/src/",
+      "Hippo\\Daemon\\": "src/daemon/src/"
+    }
+  },
+  "replace": {
+    "hippo/console": "*",
+    "hippo/daemon": "*"
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
